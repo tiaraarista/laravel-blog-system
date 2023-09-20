@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Trix */
+/* trix-toolbar .trix-button-group button {
+    @apply bg-gray-100;
+}
+
+@layer base {
+    trix-editor {
+        @apply w-full;
+        height: 150px !important;
+        max-height: 150px !important;
+        overflow-y: auto !important;
+    }
+
+    trix-editor h1 {
+        font-size: 1.5em;
+        margin: 0.5em 0;
+        @apply leading-5 font-semibold mb-4;
+    }
+
+    trix-editor a:not(.no-underline) {
+        @apply underline;
+    }
+
+    trix-editor a:visited {
+        color: green;
+    }
+
+    trix-editor ul {
+        list-style-type: disc;
+        padding-left: 1rem;
+    }
+
+    trix-editor ol {
+        list-style-type: decimal;
+        padding-left: 1rem;
+    }
+
+    trix-editor pre {
+        display: inline-block;
+        width: 100%;
+        vertical-align: top;
+        font-family: monospace;
+        font-size: 1.5em;
+        padding: 0.5em;
+        white-space: pre;
+        background-color: #eee;
+        overflow-x: auto;
+    }
+
+    trix-editor blockquote {
+        border: 0 solid #ccc;
+        border-left-width: 0px;
+        border-left-width: 0.3em;
+        margin-left: 0.3em;
+        padding-left: 0.6em;
+    }
+} */
+
+/* Site rules */
+/* body {
+    background: #000 url("somebg.gif");
+} */
+
+/* TinyMCE specific rules */
+/* body.mceContentBody {
+    background: #fff;
+} */
+
+/* .mceContentBody a {
+    color: red !important;
+} */
+
+/* Landing Page */
+.floating {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes floating {
+    0% {
+        transform: translate(0, 0px);
+    }
+    50% {
+        transform: translate(0, 8px);
+    }
+    100% {
+        transform: translate(0, -0px);
+    }
+}
+.floating-4 {
+    animation-name: floating;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes floating-4 {
+    0% {
+        transform: translate(0, 0px);
+    }
+    50% {
+        transform: translate(0, 8px);
+    }
+    100% {
+        transform: translate(0, -0px);
+    }
+}
